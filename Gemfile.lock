@@ -114,7 +114,6 @@ GEM
     erubi (1.13.0)
     ffi (1.17.0-x64-mingw-ucrt)
     ffi (1.17.0-x86_64-linux-gnu)
-    fiddle (1.1.2)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.6)
@@ -315,7 +314,6 @@ DEPENDENCIES
   capybara
   carrierwave (~> 3.1)
   debug
-  fiddle
   importmap-rails
   jbuilder
   puma (>= 5.0)
@@ -332,6 +330,9 @@ DEPENDENCIES
   turbo-rails
   tzinfo-data
   web-console
+
+RUBY VERSION
+   ruby 3.3.5p100
 
 BUNDLED WITH
    2.5.16
