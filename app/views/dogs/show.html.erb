@@ -1,0 +1,29 @@
+
+
+<div class="container text-center">
+  <div class="text-center">
+  <h1> Profile - <%= @dog.name %></h1>
+  <p><strong>Breed:</strong> <%= @dog.breed %></p>
+  <p><strong>Age:</strong> <%= @dog.age %></p>
+  <p><strong>Gender:</strong> <%= @dog.gender %></p>
+  </div>
+</div>  
+
+
+
+<div class="container text-center">
+  <p><strong>Picture:</strong></p>
+  <div class="w-50 mx-auto"> <!-- 50% width and centered -->
+    <%= image_tag @dog.picture.url, class: "img-fluid" if @dog.picture.present? %>
+  </div>
+</div>
+
+<div class="container mt-3">
+
+<%= link_to 'Edit', edit_dog_path(@dog), class: 'btn btn-primary' %>
+<%= link_to 'Save', dogs_path, class: 'btn btn-secondary btn-success' %>
+<br><br>
+<%= button_to "Delete", @dog, method: :delete, data: { turbo_confirm: "Deleting, Are you sure?" }, 
+ class: "btn btn-warning d-inline-block"%>
+</div>
+
