@@ -28,7 +28,7 @@ gem "jbuilder"
 gem 'carrierwave', '~> 3.1'
 gem 'fiddle'
 gem 'rails-controller-testing'
-gem "bundler"
+
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -50,6 +50,11 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 
+  gem 'bundler-audit'
+  gem 'ruby_audit'
+  gem 'rubocop'
+  gem 'rubocop-rails'
+  
 end
 
 
