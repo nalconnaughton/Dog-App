@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'dogs/index'
   resources :dogs
   root "dogs#index"
 
