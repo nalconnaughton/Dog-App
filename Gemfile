@@ -57,7 +57,7 @@ group :development, :test do
   gem 'ruby_audit'
   gem 'rubocop'
   gem 'rubocop-rails'
-  
+  gem "rails_12factor"
 end
 
 
