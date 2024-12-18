@@ -26,7 +26,7 @@ gem "jbuilder"
 # gem "bcrypt", "~> 3.1.7"
 
 gem 'carrierwave', '~> 3.1'
-gem 'fiddle', '~> 1.1', '>= 1.1.6'
+gem 'fiddle'
 gem 'rails-controller-testing'
 gem "bundler"
 
