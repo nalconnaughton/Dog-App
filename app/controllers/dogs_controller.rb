@@ -9,7 +9,7 @@ class DogsController < ApplicationController
         @dogs = Dog.all
     end
 
-     # GET /dogs (shows specific dog details)
+     # GET /dogs/ id (shows specific dog details)
   def show  
   
   end
