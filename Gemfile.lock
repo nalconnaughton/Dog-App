@@ -112,6 +112,8 @@ GEM
       reline (>= 0.3.8)
     drb (2.2.1)
     erubi (1.13.0)
+    faker (3.5.1)
+      i18n (>= 1.8.11, < 2)
     ffi (1.17.0-x64-mingw-ucrt)
     ffi (1.17.0-x86_64-linux-gnu)
     globalid (1.2.1)
@@ -271,6 +273,9 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    simple_form (5.3.1)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -321,6 +326,7 @@ DEPENDENCIES
   capybara
   carrierwave (~> 3.1)
   debug
+  faker (~> 3.5, >= 3.5.1)
   importmap-rails
   jbuilder
   pg (~> 1.5, >= 1.5.9)
@@ -333,6 +339,7 @@ DEPENDENCIES
   rubocop-rails-omakase
   ruby_audit
   selenium-webdriver
+  simple_form (~> 5.3, >= 5.3.1)
   sprockets-rails
   sqlite3 (>= 1.4)
   stimulus-rails

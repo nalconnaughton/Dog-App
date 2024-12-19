@@ -19,7 +19,7 @@ class DogsController < ApplicationController
     @dog = Dog.new
   end
 
-  #POST/dogs (create new dog record, if successful redirection to index page with success message)
+  #POST/dogs (create new dog record, if successful redirection to index page)
   def create
     @dog = Dog.new(dog_params)
     if @dog.save

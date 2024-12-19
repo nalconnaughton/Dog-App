@@ -31,7 +31,8 @@ gem "jbuilder"
 
 gem 'carrierwave', '~> 3.1'
 gem 'rails-controller-testing'
-
+gem 'faker', '~> 3.5', '>= 3.5.1'
+gem 'simple_form', '~> 5.3', '>= 5.3.1'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
